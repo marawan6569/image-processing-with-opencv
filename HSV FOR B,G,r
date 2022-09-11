@@ -1,0 +1,17 @@
+
+    lower_blue=np.array([110,50,50])
+    upper_blue=np.array([130,255,255])
+
+    #range for green color in HSV
+
+    #calculations:
+    #green = np.uint8([[[0,255,0 ]]])
+    #hsv_green = cv2.cvtColor(green,cv2.COLOR_BGR2HSV)
+    lower_green=np.array([50,50,50])             
+    upper_green=np.array([70,255,255])
+
+    #calculations:
+    #red = np.uint8([[[0,0,255 ]]])
+    #hsv_red = cv2.cvtColor(red,cv2.COLOR_BGR2HSV)
+    lower_red=np.array([0, 50, 50])             
+    upper_red=np.array([10, 255, 255])
